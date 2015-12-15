@@ -4,7 +4,9 @@ Test taken by candidates applying for the post of Fullstack Developer
 # The Task
 The task is to create a cross platform web-based single-page chat client application. It is a simple chat application that utilizes two transports instead of only one. The authentication is not a concern for you right now. Just let the user pick a username that has not already been picked. Registration/Passwords are not needed. You can do them if you fancy but seriously, why? :)
 
-The first trasport is websocket. I suggest you use the `WebSocket` native APIs on client side. use the "ws" module on npm (https://github.com/websockets/ws). This part is extremely straightforward.
+The first trasport is websocket. I suggest you use the `WebSocket` native APIs on client side.
+
+Use the "ws" module (https://github.com/websockets/ws) on server side. This part is extremely straightforward.
 
 The second trasport is the challenging part. It allows for offline communication using the brand new "Service Worker" standards. The idea is that the application should be usable without actually being online. The user can just type in the url for the application and type in their messages as if they were online. (The behaviour is similar to how google docs can be worked on offline.) Read up on service worker here - http://www.html5rocks.com/en/tutorials/service-worker/introduction/
 
