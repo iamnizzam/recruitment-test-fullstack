@@ -2,7 +2,7 @@
 Test taken by candidates applying for the post of Fullstack Developer
 
 # The Task
-The task is to create a cross platform web-based single-page chat client application. It is a simple chat application that utilizes two transports instead of only one. The authentication is not a concern for you right now. Just let the user pick a username that has not already been picked. Registration/Passwords are not needed. You can do them if you fancy but seriously, why? :)
+The task is to create a cross platform web-based single-page textual chat client application. It is a simple chat application that utilizes two transports instead of only one. The authentication is not a concern for you right now. Just let the user pick a username that has not already been picked. Registration/Passwords are not needed. You can do them if you fancy but seriously, why? :)
 
 The first trasport is websocket. I suggest you use the `WebSocket` native APIs on client side.
 
